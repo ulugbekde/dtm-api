@@ -3,7 +3,7 @@ from config import *
 from telebot.types import *
 
 
-bot = telebot.TeleBot("7244967528:AAHqqeTuorjpplqf_1LTlMOld6RIEP3eABA",parse_mode='html')
+bot = telebot.TeleBot("API_KEY",parse_mode='html')
 
 
 @bot.message_handler(commands=['start','help'])
